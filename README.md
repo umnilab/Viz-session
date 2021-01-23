@@ -1,0 +1,1 @@
+Repository for the web-based visualization session. Mainly for visualizing geospatial data.
