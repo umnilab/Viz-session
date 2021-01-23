@@ -1,0 +1,1 @@
+The first session for web-based visualization, which intends to introduce basic concepts and provide a quick glance of JS coding to beginners who got experience for other language (e.g., Python).

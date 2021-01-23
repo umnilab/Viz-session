@@ -1,0 +1,45 @@
+{
+  "name": "vis-od",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --open",
+    "build": "webpack  --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "deck.gl": "^8.1.12",
+    "jquery-csv": "^1.0.11",
+    "luma.gl": "^6.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-key-handler": "^1.2.0-beta.3",
+    "react-map-gl": "^5.0.0",
+    "react-vis": "^1.11.4",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^2.11.5",
+    "eslint": "^7.18.0"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-env",
+      "babel-preset-react",
+      "babel-preset-stage-2"
+    ],
+    "plugins": [
+      "babel-plugin-transform-class-properties"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-inline-json-import": "^0.3.2",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "offline-plugin": "^5.0.5",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^2.11.5"
+  }
+}
