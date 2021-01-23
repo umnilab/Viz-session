@@ -31,8 +31,9 @@ let myfun2 = (a)=>{
     if(a <= 0) {
         return 1;
     }
-    return a*factorial(a-1)};
-console.log(myfun2(5));
+    return a*factorial(a-1)
+};
+console.log(myfun2(7));
 
 /*-------------------------------------------------------------------------------*/
 let X = [...Array(10).keys()];

@@ -78,7 +78,7 @@ export function renderLayers(props) {
         settings.dispType == 'outflow' ? COLOR_SCALE(data.outFlow[f.properties.OBJECTID - 1]) : COLOR_SCALE(
             data.inFlow[f.properties.OBJECTID - 1])
       ),
-      getElevation: 0,
+      getElevation: 100,
       lightSettings: LIGHT_SETTINGS,
       pickable: true,
       onHover: onHover,
