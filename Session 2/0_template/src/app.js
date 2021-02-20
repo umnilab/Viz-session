@@ -58,11 +58,15 @@ export default class App extends Component {
     this.setState({x, y, hoveredObject: object});
   }
 
+  _onHover = this._onHover.bind(this);
+
   // When select an object
   _onSelect({object}){
     this.setState({selectedObject: object === this.state.selectedObject ? null : object
     });
   }
+
+  _onSelect = this._onSelect.bind(this);
 
   // When change the map style
   _onStyleChange = style => {
@@ -90,6 +94,8 @@ export default class App extends Component {
         )
     );
   }
+
+  _renderTooltip = this._renderTooltip.bind(this);
 
   // For correctly loading WebGL layer with the GIS (supported by Mapbox) layer
   _onWebGLInitialize = gl => {

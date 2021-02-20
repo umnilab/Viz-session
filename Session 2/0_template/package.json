@@ -1,7 +1,7 @@
 {
   "name": "template",
   "version": "0.0.1",
-  "license" : "MIT license",
+  "license": "MIT license",
   "scripts": {
     "start": "webpack-dev-server --progress --hot --open",
     "build": "webpack  --config ./webpack.config.js"

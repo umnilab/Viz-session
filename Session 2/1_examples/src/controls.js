@@ -9,11 +9,13 @@ export const LAYER_CONTROLS = {
   },
   data: {
     displayName: 'Change data',
-    type: 'dorpdownlist',
-    value: 'case',
+    type: 'dropdownlist',
+    value: 'building',
     options:[
-      { label: 'Option 1', value: 'opt1' },
-      { label: 'Option 2', value: 'opt2' }]
+      { label: 'POI', value: 'poi' },
+      { label: 'Roads', value: 'road' },
+      { label: 'Buildings', value: 'building' },
+      { label: 'Bikes', value: 'bike' }]
   }
 };
 
@@ -110,7 +112,7 @@ const Setting = props => {
         return <Slider {...props} />;
       case 'boolean':
         return <Checkbox {...props} />;
-      case 'dorpdownlist':
+      case 'dropdownlist':
         return <Dropdownlist {...props} />;
       default:
         return <input {...props} />;
